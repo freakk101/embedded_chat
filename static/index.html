@@ -1,0 +1,53 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>Embeddable Chat Example</title>
+
+   <style>
+     body {
+       margin: 0;
+       font-family: Arial, sans-serif;
+     }
+     .parallax {
+       background-image: url('background.jpg');
+       min-height: 100vh;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       color: white;
+       font-size: 24px;
+     }
+     .quote {
+       padding: 20px;
+       background-color: rgba(0, 0, 0, 0.5);
+       border-radius: 10px;
+     }
+   </style>
+     <script src="./dist/chat-widget.js"></script>
+
+ </head>
+ <body>
+
+ <div class="parallax">
+   <div class="quote">
+     <h1>"Look for chat in lower left corner"</h1>
+     <p>- Abd</p>
+   </div>
+ </div>
+ 
+ <div class="parallax">
+   <div class="quote">
+     <h1>"What you seek is seeking you"</h1>
+     <p>- Rumi</p>
+   </div>
+ </div>
+ 
+</body>
+</html> 
