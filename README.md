@@ -1,4 +1,5 @@
 **Below is the hosted version of chat widget**
+
 small chat screen will appear on the bottom right corner of screen
 
  - its static chat no apis and socket is added
